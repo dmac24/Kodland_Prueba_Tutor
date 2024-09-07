@@ -35,12 +35,12 @@ python main.py
 ## Estructura del Proyecto 
 ```bash
 ├── main.py                
-├── juego/                  # Lógica del juego
+├── juego/               
 │   ├── __init__.py
-│   ├── jugador.py          # Manejo de Jugador
-│   ├── obstaculo.py        # Obstáculos
-│   ├── estado.py           # Estados del Juego
-├── recursos/               # Recursos (imágenes, sonidos)
+│   ├── jugador.py          
+│   ├── obstaculo.py        
+│   ├── estado.py          
+├── recursos/             
 │   ├── backgroundImg.png
 │   ├── gameOver.png
 │   ├── ground.png
@@ -58,5 +58,5 @@ python main.py
 │   │   ├── jump.wav
 │   │   └── collided.wav
 │── Estructura.txt
-└── README.md               # Documentación
+└── README.md              
 ```
