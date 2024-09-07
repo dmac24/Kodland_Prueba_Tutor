@@ -1,10 +1,9 @@
-├── main.py                 # Punto de entrada del juego
+├── main.py                 # Punto de Entrada
 ├── juego/                  # Lógica del juego
 │   ├── __init__.py
-│   ├── jugador.py          # Manejo del jugador
-│   ├── obstaculo.py        # Manejo de obstáculos
-│   ├── estado.py           # Manejo del estado del juego
-│   └── utilidades.py       # Funciones utilitarias
+│   ├── jugador.py          # Manejo de Jugador
+│   ├── obstaculo.py        # Obstáculos
+│   ├── estado.py           # Estados del Juego
 ├── recursos/               # Recursos (imágenes, sonidos)
 │   ├── backgroundImg.png
 │   ├── gameOver.png
@@ -24,4 +23,4 @@
 │   │   ├── jump.wav
 │   │   └── collided.wav
 │── Estructura.txt
-└── README.md               # Documentación del proyecto
+└── README.md               # Documentación
