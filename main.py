@@ -23,4 +23,4 @@ while True:
 
     estado.dibujar()
     pygame.display.flip()
-    clock.tick(30) 
+    clock.tick(40) 

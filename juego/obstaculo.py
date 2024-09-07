@@ -10,8 +10,9 @@ class Obstaculo:
             pygame.image.load('recursos/obstaculos/obstacle3.png').convert_alpha(),
         ]
         self.image = random.choice(obstacle_images)
+        self.image = pygame.transform.scale(self.image, (80, 80))
         self.rect = self.image.get_rect(midbottom=(x, y))
-        self.velocity_x = -1
+        self.velocity_x = -6
         self.max_velocity = -10
         self.acceleration = -0.1
     

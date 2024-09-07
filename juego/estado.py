@@ -46,7 +46,7 @@ class Estado:
         self.jugador.dibujar()
         for obstaculo in self.obstacles:
             obstaculo.dibujar()
-        self.screen.blit(self.ground_image, (0, self.height - 100)) 
+        self.screen.blit(self.ground_image, (0, self.height - 90)) 
 
         score_text = self.font.render(f'Score: {self.score}', True, (0, 0, 0))
         self.screen.blit(score_text, (10, 10))
@@ -59,7 +59,7 @@ class Estado:
 
     def spawn_obstacles(self):
         if len(self.obstacles) < 2:
-            self.obstacles.append(Obstaculo(self.screen, self.width, self.height - 95))
+            self.obstacles.append(Obstaculo(self.screen, self.width, self.height - 80))
 
     def reset(self):
         self.game_state = PLAY
