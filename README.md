@@ -17,7 +17,7 @@ Es divertido y el jugador controla al dinosaurio que debe saltar sobre obstácul
 ```
 2. Navega a la carpeta del proyecto:
  ```bash
- cd trex_corredora_color
+ cd Kodland_Prueba_Tutor
   ```
 3. Instala Pygame:
  ```bash
