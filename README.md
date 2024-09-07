@@ -8,7 +8,7 @@ Es divertido y el jugador controla al dinosaurio que debe saltar sobre obstácul
 ## Tecnologías
 - ![Python](https://img.shields.io/badge/-Python-7F5AB6?logo=Python&style=flat-square&labelColor=282828)
 - ![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=GitHub&style=flat-square&labelColor=282828)
-- ![Pygame ](https://img.shields.io/badge/-Pygame-181717?logo=Python&style=flat-square&labelColor=282828)
+- ![Pygame ](https://img.shields.io/badge/-Pygame-7F5AB6?logo=Python&style=flat-square&labelColor=282828)
 
 ## Instalación
 1. Clona este repositorio:
@@ -57,6 +57,6 @@ python main.py
 │   ├── sonidos/
 │   │   ├── jump.wav
 │   │   └── collided.wav
-│── Estructura.txt
+│── estructura.txt
 └── README.md               # Documentación del proyecto
 ```
