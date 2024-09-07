@@ -1,27 +1,29 @@
 # Kodland_Prueba_Tutor
 
 ## Descripción
-Para esta prueba se hizo una versión a Color del Trex Corredor de Google, el minijuego, que oficialmente es llamado “Chrome Dino” y que aparece cuando el navegador no puede conectarse a Internet.
-En esta versión del juego, se reproduce con personajes a color y sin mensajes de erroresd de conexión. 
-Es divertido y el jugador controla al dinosaurio que debe saltar sobre obstáculos. El objetivo es ver cuánto tiempo puedes correr sin chocar.
+Para esta prueba se hizo una versión a Color del Trex Corredor de Google, el minijuego, que oficialmente es llamado “Chrome Dino” y que aparece cuando el navegador no puede conectarse a Internet. <br>
+En esta versión del juego, se reproduce con personajes a color y sin mensajes de erroresd de conexión. <br>
+Es divertido y el jugador controla al dinosaurio que debe saltar sobre obstáculos. El objetivo es ver cuánto tiempo puedes correr sin chocar.<br>
+
 
 ## Tecnologías
 - ![Python](https://img.shields.io/badge/-Python-7F5AB6?logo=Python&style=flat-square&labelColor=282828)
 - ![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=GitHub&style=flat-square&labelColor=282828)
 - ![Pygame ](https://img.shields.io/badge/-Pygame-7F5AB6?logo=Python&style=flat-square&labelColor=282828)
 
+
 ## Instalación
 1. Clona este repositorio:
 ```bash
-   git clone https://github.com/dmac24/Kodland_Prueba_Tutor
+    git clone https://github.com/dmac24/Kodland_Prueba_Tutor
 ```
 2. Navega a la carpeta del proyecto:
  ```bash
- cd Kodland_Prueba_Tutor
+    cd Kodland_Prueba_Tutor
   ```
 3. Instala Pygame:
  ```bash
-pip install pygame
+    pip install pygame
  ```
 
 ## Uso
