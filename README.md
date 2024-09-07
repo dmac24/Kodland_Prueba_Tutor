@@ -45,7 +45,6 @@ python main.py
 │   ├── gameOver.png
 │   ├── ground.png
 │   ├── restart.png
-│   ├── sun.png
 │   ├── jugador/
 │   │   ├── trex_1.png
 │   │   ├── trex_2.png
