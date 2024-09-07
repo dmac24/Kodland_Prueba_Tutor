@@ -11,9 +11,9 @@ class Obstaculo:
         ]
         self.image = random.choice(obstacle_images)
         self.rect = self.image.get_rect(midbottom=(x, y))
-        self.velocity_x = -6
-        self.max_velocity = -15
-        self.acceleration = -0.001
+        self.velocity_x = -1
+        self.max_velocity = -10
+        self.acceleration = -0.1
     
     def generar_obstaculos(self):
         self.rect.x += self.velocity_x

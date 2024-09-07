@@ -10,6 +10,8 @@ pantalla = pygame.display.set_mode((800, 600))
 pygame.display.set_caption('Trex Corredor')
 
 estado = Estado(pantalla, 800, 600)
+clock = pygame.time.Clock()
+
 
 while True:
     for event in pygame.event.get():
@@ -21,3 +23,4 @@ while True:
 
     estado.dibujar()
     pygame.display.flip()
+    clock.tick(30) 
